@@ -1,0 +1,37 @@
+{% include header.html %}
+
+  {% for post in site.posts %}
+    
+    <!-- Post List Start -->
+    <article class="panel">
+      <div class="layout"><div>
+        
+        <div class="panel-content">
+          {{ post.date | date_to_string }}
+          <header class="entry-header">
+            <h2 class="entry-title">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+          </header>
+          
+          <div class="entry-content">
+            <span class="read-more">
+              <a class="more-link" href="{{ post.url }}"> Read more </a>
+            </span>
+          </div><!-- entry-content -->
+          
+          <footer class="entry-footer"></footer>
+        </div><!-- panel-content -->
+      </article>
+    <!-- Post List End -->
+
+  {% endfor %}
+
+
+  {% include footer.html %}
+
+  {% include js.html %}
+
+</body>
+
+</html>

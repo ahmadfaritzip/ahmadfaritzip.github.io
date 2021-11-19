@@ -1,0 +1,46 @@
+{% include header.html %}
+
+  <div class="layout"><div>
+    <h1 align="center">{{ site.category_title }}</h1>
+
+      <!-- <article class="post-content"><div><style>button { margin-bottom: 10px; }</style>
+        <button class="waves-effect waves-light btn" onclick="expandAll();"><i class="mdi mdi-chevron-double-down left"></i>Expand</button>
+        <button class="waves-effect waves-light btn" onclick="collapseAll();"><i class="mdi mdi-chevron-double-up left"></i>Collapse</button>
+      </div> -->
+      
+      <!-- </article> -->
+      {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div class="collapsible">{{ category_name }}</div>
+        {% for post in site.categories[category_name] %}
+        <div class="content">
+          <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+        </div>
+        {% endfor %}
+      {% endfor %}
+
+
+  {% include footer.html %}
+
+  {% include js.html %}
+
+</body>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+
+</html>
