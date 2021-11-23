@@ -2,20 +2,20 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: My Site
+title: Faritz Portofolio
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Faritz portfolio site, powered by Github Pages and Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 # baseurl: "/ahmadfaritzip"
-baseurl: "/"
+baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
 username: Ahmad Faritz Ip
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+typing_text: Enthusiastic Programmer
 # email: Your E-Mail address for the email button.
 email: ahmadfaritzip@gmail.com
 # For every social button you want to display, set your username or userid
@@ -24,8 +24,8 @@ email: ahmadfaritzip@gmail.com
 github_username: ahmadfaritzip
 # codepen_username: exampleUser
 # dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+# linkedin_username: exampleUser
+twitter_username: ahmadfaritzip
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -51,22 +51,17 @@ skills_title: Skills
 # > setting this to false, will omit the About Me section
 show_blog_card: true
 # blog_me_title: The will be displayed as the title in the About Me section
-blog_me_title: Blog
+blog_me_title: My Blog
 # about_me_description: This will be displayed under the title.
 blog_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
 
 ########
 # Blog #
 ########
-
 # enable-gesture-navigation: True
-
 # post-preview-words: 96
-
 paginate: 5
-
 syntax-highlight: True
-
 
 
 ##############
@@ -85,18 +80,18 @@ category_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, s
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
 # > setting this to false, will omit the Timeline section
-show_timeline_card: false
+show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+# cv_download_link: https://example.com/
 
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
 # > setting this to false, will omit the Projects section
-show_projects_card: false
+show_projects_card: true
 # show_projects:
 # > setting this to true, will display your listed projects in _data/projects.yml
 # > setting this to false, will omit your listed projects
@@ -106,7 +101,7 @@ projects_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: false
+show_os_projects: true
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -118,17 +113,16 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description:
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: ahmadfaritzip/my-site
+repository: ahmadfaritzip/ahmadfaritzip.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
-  sort_by: pushed
+  sort_by: stars
   exclude:
     # archived:
     # > setting this to true, will exclude archived repositories
@@ -157,7 +151,7 @@ permalink: /:categories/:title/
  
 # future: true   
 
-  ### END OF VALUES YOU SHOULD CHANGE ###
+### END OF VALUES YOU SHOULD CHANGE ###
 
 plugins:
   [
