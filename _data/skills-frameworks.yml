@@ -10,3 +10,9 @@
 
 - name: Django
   weight: 1
+
+- name: Flask
+  weight: 4
+
+- name: Bootstrap
+  weight: 5

@@ -1,59 +1,152 @@
-
 /* Skills Section */
-
-#skills {
-    display: flex;
+ #skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  #skill-cloud {
+    display: flex; 
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  
-    div {
+    span {
       padding: 0.2rem;
-      transition: opacity 0.5s;
-    }
-  
-    div[skill-type="language"] {
-      color: #e84a5f;
-    }
-  
-    div[skill-type="framework"] {
-      color: #ff847c;
-    }
-  
-    div[skill-type="tool"] {
-      color: #fecea8;
-    }
-  
-    div[skill-weight="1"] {
-      font-size: 0.75rem;
-      line-height: 0.25rem;
-    }
-  
-    div[skill-weight="2"] {
-      font-size: 1.25rem;
-      line-height: 0.75rem;
-    }
-  
-    div[skill-weight="3"] {
-      font-size: 1.75rem;
-      line-height: 1.25rem;
-    }
-  
-    div[skill-weight="4"] {
-      font-size: 2.25rem;
-      line-height: 1.75rem;
-    }
-  
-    div[skill-weight="5"] {
-      font-size: 2.75rem;
-      line-height: 2.25rem;
-    }
-  
-    input[type="radio"] {
-      display: none;
-    }
-  
-    .filter-button {
-      display: none;
+      transition: $transition;
+
+      &[skill-type="language"] {
+        color: $secondary-color;
+      }
+      &[skill-type="framework"] {
+        color: $third-color;
+      }
+      &[skill-type="tool"] {
+        color: $fourth-color;
+      }
+      &[skill-weight="1"] {
+        font-size: 0.75rem;
+        line-height: 0.25rem;
+      }
+      &[skill-weight="2"] {
+        font-size: 1.25rem;
+        line-height: 0.75rem;
+      }
+      &[skill-weight="3"] {
+        font-size: 1.75rem;
+        line-height: 1.25rem;
+      }
+      &[skill-weight="4"] {
+        font-size: 2.25rem;
+        line-height: 1.75rem;
+      }
+      &[skill-weight="5"] {
+        font-size: 2.75rem;
+        line-height: 2.25rem;
+      }
     }
   }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  .filter-button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $medium-screen) {
+  // Adjust sizing of skills cloud
+  #skills {
+    #skill-cloud {
+      margin-bottom: 1rem;
+      span {
+        &[skill-weight="1"] {
+          font-size: 1rem;
+          line-height: 0rem;
+        }
+        &[skill-weight="2"] {
+          font-size: 2rem;
+          line-height: 1rem;
+        }
+        &[skill-weight="3"] {
+          font-size: 3rem;
+          line-height: 2rem;
+        }
+        &[skill-weight="4"] {
+          font-size: 4rem;
+          line-height: 3rem;
+        }
+        &[skill-weight="5"] {
+          font-size: 5rem;
+          line-height: 4rem;
+        }
+      }
+    }
+
+    .filter-button {
+      border-radius: $border-radius;
+      cursor: pointer;
+      display: unset;
+      margin: 0 0.5rem 1rem;
+      padding: 0.5rem 0.25rem;
+      text-align: center;
+      width: 20%;
+      transition: $transition;
+      line-height: 1.1rem;
+
+      &:hover {
+        letter-spacing: 0.25rem;
+        font-size: 1.1rem;
+      }
+    }
+
+    @mixin filter-out {
+      height: 0;
+      margin: 0;
+      opacity: 0;
+      padding: 0;
+      width: 0;
+    }
+
+    input[type="radio"]:checked + .filter-button {
+      font-weight: $font-weight-strong;
+      background: linear-gradient(
+        150deg,
+        rgba(20, 20, 20, 0.4) 10%,
+        rgba(115, 115, 115, 0.15) 80%
+      );
+      box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
+        -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
+        inset -1px -2px 2px rgba(210, 210, 210, 0.4);
+    }
+
+    input#language:checked {
+      + .filter-button {
+        color: $secondary-color;
+      }
+      ~ #skill-cloud span[skill-type="framework"],
+      ~ #skill-cloud span[skill-type="tool"] {
+        @include filter-out;
+      }
+    }
+
+    input#framework:checked {
+      + .filter-button {
+        color: $third-color;
+      }
+      ~ #skill-cloud span[skill-type="language"],
+      ~ #skill-cloud span[skill-type="tool"] {
+        @include filter-out;
+      }
+    }
+    input#tool:checked {
+      + .filter-button {
+        color: $fourth-color;
+      }
+      ~ #skill-cloud span[skill-type="language"],
+      ~ #skill-cloud span[skill-type="framework"] {
+        @include filter-out;
+      }
+    }
+  }
+}

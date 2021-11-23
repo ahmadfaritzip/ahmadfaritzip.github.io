@@ -19,3 +19,6 @@
 
 - name: Postman
   weight: 4
+
+- name: REST API
+  weight: 4
