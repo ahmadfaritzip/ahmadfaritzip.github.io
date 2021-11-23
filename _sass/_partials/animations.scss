@@ -1,0 +1,88 @@
+
+
+/* Reusable Animations */
+
+@keyframes jump {
+    0% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 0.5rem;
+    }
+    100% {
+      bottom: 0;
+    }
+  }
+
+  
+@keyframes spin {
+    0%,
+    100% {
+      transform: translate(0);
+    }
+    25% {
+      transform: translate(160%);
+    }
+    50% {
+      transform: translate(160%, 160%);
+    }
+    75% {
+      transform: translate(0, 160%);
+    }
+  }
+  
+  @keyframes outWaveIn {
+    to {
+      stroke-dasharray: 510;
+      stroke-width: 0.5rem;
+    }
+  }
+  
+  @keyframes outWaveOut {
+    from {
+      stroke: $text-color;
+      stroke-dasharray: 510;
+      stroke-width: 0.5rem;
+    }
+    to {
+      stroke: $text-color;
+      stroke-dasharray: 83;
+      stroke-width: 0.5rem;
+    }
+  }
+  
+  @keyframes colorDefaultIcon {
+    to {
+      stroke: $fourth-color;
+    }
+  }
+  
+  @keyframes colorEmail {
+    to {
+      stroke: $primary-color;
+    }
+  }
+  
+  @keyframes colorGithub {
+    to {
+      stroke: $github-color;
+    }
+  }
+  
+  @keyframes colorLinkedin {
+    to {
+      stroke: $linkedin-color;
+    }
+  }
+  
+  @keyframes colorTwitter {
+    to {
+      stroke: $twitter-color;
+    }
+  }
+  
+  @keyframes colorPdf {
+    to {
+      stroke: $secondary-color;
+    }
+  }

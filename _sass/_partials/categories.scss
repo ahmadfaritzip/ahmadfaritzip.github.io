@@ -1,0 +1,28 @@
+/* Categories */
+.collapsible {
+    background-color: #2B2D2F;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    /* border: none; */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    /* border-top: 1px solid #ddd; */
+    /* border-right: 1px solid #ddd; */
+    border-left: 1px solid #ddd;
+    /* margin: .5rem 0 1rem 0; */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 10px -2px rgba(0,0,0,0.2);
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #2B2D2F;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

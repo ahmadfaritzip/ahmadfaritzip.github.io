@@ -1,0 +1,29 @@
+/* Variables */
+
+$small-screen: 48em !default;
+$medium-screen: 62em !default;
+$large-screen: 75em !default;
+$font-family: "Raleway", sans-serif;
+$font-family-numbers: "Josefin Sans", sans-serif;
+$font-size-base: 1rem !default;
+$font-size-h1: 2rem !default;
+$font-weight-strong: 600;
+$text-color: #fff !default;
+$transition: all 0.5s ease-in-out;
+$bg-color: #282c34;
+$border-radius: 2px;
+$card-bg-color: linear-gradient(
+  145deg,
+  rgba(115, 115, 115, 0.15) 15%,
+  #282c34 80%
+);
+// $primary-color: #ff073a;
+$primary-color: #ff00f2;
+// $primary-color: #00ff73;
+$secondary-color: #61afef;
+$third-color: #e06c75;
+$fourth-color: #e5c07b;
+
+$twitter-color: #1da1f2;
+$linkedin-color: #007bb6;
+$github-color: #000000;
