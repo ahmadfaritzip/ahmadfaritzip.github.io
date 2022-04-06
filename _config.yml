@@ -15,7 +15,7 @@ baseurl: ""
 username: Ahmad Faritz Ip
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Open Source Enthusiastic
+typing_text: Software Enginner
 # email: Your E-Mail address for the email button.
 email: ahmadfaritzip@gmail.com
 # For every social button you want to display, set your username or userid
@@ -35,7 +35,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: 👋 Hi, Nama saya Ahmad Faritz Ip <br><br> 👨‍💻 Saya seorang programer antusias <br><br> 💻 Saya suka membagikan source code saya, dapat dilihat di <a href="https://github.com/ahmadfaritzip">github</a> <br><br> 📈 Saya kedepannya berencana akan membagikan pengalaman di blog.
+about_me_description: 👋 Hi, Nama saya Ahmad Faritz Ip <br><br> 👨‍💻 Saya seorang Software Enginner <br><br> 💻 Saya suka membagikan source code saya, dapat dilihat di <a href="https://github.com/ahmadfaritzip">github</a>
 
 # SKILLS SECTION
 # show_skills_card:

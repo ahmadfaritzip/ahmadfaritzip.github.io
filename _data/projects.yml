@@ -22,3 +22,12 @@
     - tag: C
     - tag: MongoDB
     - tag: ESP32
+
+- name: Sistem Monitoring Lokasi Pasien
+  descr: "Sistem Monitoring lokasi pasien adalah sistem yang dibangun untuk kebutuhan monitoring lokasi pasien covid19 didalam ruangan. sistem yang dibangun dengan bahasa pemrograman php, jQuery, python serta untuk penyimpanan data menggunakan ELK."
+  tags:
+    - tag: PHP
+    - tag: jQuery
+    - tag: Python
+    - tag: Raspberry Pi
+    - tag: ELK(elasticsearch-log-kibana)
