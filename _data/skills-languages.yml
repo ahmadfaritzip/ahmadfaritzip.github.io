@@ -17,12 +17,6 @@
 - name: Java
   weight: 2
 
-- name: HTML5
-  weight: 5
-
-- name: CSS3
-  weight: 4
-
 - name: Pascal
   weight: 2
 

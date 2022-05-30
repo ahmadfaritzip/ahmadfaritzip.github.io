@@ -15,7 +15,7 @@ baseurl: ""
 username: Ahmad Faritz Ip
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Software Enginner
+typing_text: Software Engineer
 # email: Your E-Mail address for the email button.
 email: ahmadfaritzip@gmail.com
 # For every social button you want to display, set your username or userid
@@ -24,8 +24,9 @@ email: ahmadfaritzip@gmail.com
 github_username: ahmadfaritzip
 # codepen_username: exampleUser
 # dev_username: exampleUser
-# linkedin_username: exampleUser
-twitter_username: ahmadfaritzip
+linkedin_username: ahmadfaritzip
+# twitter_username: ahmadfaritzip
+tiktok_username: ahmadfaritzip
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -35,7 +36,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: 👋 Hi, Nama saya Ahmad Faritz Ip <br><br> 👨‍💻 Saya seorang Software Enginner <br><br> 💻 Saya suka membagikan source code saya, dapat dilihat di <a href="https://github.com/ahmadfaritzip">github</a>
+about_me_description: 👋 Hi, Nama saya Ahmad Faritz Ip <br><br> 👨‍💻 Saya seorang Software Engineer <br><br> 💻 Saya suka membagikan source code saya, dapat dilihat di <a href="https://github.com/ahmadfaritzip">github</a>
 
 # SKILLS SECTION
 # show_skills_card:
@@ -122,7 +123,7 @@ projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
-  sort_by: stars
+  sort_by: time
   exclude:
     # archived:
     # > setting this to true, will exclude archived repositories

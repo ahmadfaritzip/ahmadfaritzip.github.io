@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Sistem Absensi BLE IoT
-  descr: "Sistem absensi BLE (Bluetooth Low Energy) adalah sistem yang dibangun untuk kebutuhan absensi Siswa SMK. Sistem ini dibangun dengan 3 platform, web yang dibangun menggunakan flask digunakan untuk mengelola data absensi, APK absensi dibangun menggunakan bahasa pemprograman java berguna untuk absensi siswa, dan Alat ESP32 yang digunakan untuk menangkap data BLE."
+  descr: "Sistem absensi BLE (Bluetooth Low Energy) adalah sistem yang dibangun untuk kebutuhan absensi Siswa SMK. Sistem ini dibangun dengan 3 platform, web yang dibangun menggunakan framework flask digunakan untuk mengelola data absensi, Aplikasi Mobile absensi dibangun menggunakan bahasa pemprograman java berguna untuk absensi siswa, dan Perangkat IoT untuk memvalidasi siswa."
   tags:
     - tag: Python3
     - tag: Flask
@@ -23,11 +23,19 @@
     - tag: MongoDB
     - tag: ESP32
 
-- name: Sistem Monitoring Lokasi Pasien
-  descr: "Sistem Monitoring lokasi pasien adalah sistem yang dibangun untuk kebutuhan monitoring lokasi pasien covid19 didalam ruangan. sistem yang dibangun dengan bahasa pemrograman php, jQuery, python serta untuk penyimpanan data menggunakan ELK."
+- name: Sistem Monitoring Lokasi Pasien (Indoor Position)
+  descr: "Sistem Monitoring lokasi pasien adalah sistem yang dibangun untuk kebutuhan monitoring lokasi pasien covid19 didalam ruangan. sistem yang dibangun dengan bahasa pemrograman php, jQuery, python serta untuk pengelolaan log data menggunakan ELK."
   tags:
     - tag: PHP
     - tag: jQuery
     - tag: Python
     - tag: Raspberry Pi
     - tag: ELK(elasticsearch-log-kibana)
+
+- name: Healthy Life - Giudeliens and Scheduling
+  descr: "Aplikasi ini memberikan informasi seputar manfaat buah-buahan dan sayuran yang kita konsumsi setiap hari. merekomendasikan makanan buah dan sayur dan melakukan penjadwalan kegiatan(aktivitas). (Dibuat untuk memenuhi tugas kuliah)"
+  demo : https://play.google.com/store/apps/details?id=com.noplayer.healthylife
+  tags:
+    - tag: Java
+    - tag: Restfull API
+    - tag: XML
