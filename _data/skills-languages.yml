@@ -9,19 +9,10 @@
   weight: 5
 
 - name: PHP
-  weight: 5
+  weight: 4
 
 - name: JavaScript
-  weight: 3
+  weight: 4
 
 - name: Java
   weight: 2
-
-- name: Pascal
-  weight: 2
-
-- name: C
-  weight: 2
-
-- name: Assembly
-  weight: 1

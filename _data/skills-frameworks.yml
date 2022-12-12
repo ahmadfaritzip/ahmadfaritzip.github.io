@@ -6,7 +6,13 @@
 #   weight: 5
 
 - name: Code Igniter
-  weight: 1
+  weight: 3
+
+- name: VueJs(NuxtJs)
+  weight: 3
+
+- name: ExpressJS
+  weight: 3
 
 - name: Django
   weight: 2
@@ -14,8 +20,11 @@
 - name: Flask
   weight: 5
 
+- name: FastAPI
+  weight: 5
+
 - name: Bootstrap
   weight: 5
 
 - name: Tailwind
-  weight: 3
+  weight: 5

@@ -14,17 +14,16 @@
 #     - tag: Node
 
 - name: Sistem Absensi BLE IoT
-  descr: "Sistem absensi BLE (Bluetooth Low Energy) adalah sistem yang dibangun untuk kebutuhan absensi Siswa SMK. Sistem ini dibangun dengan 3 platform, web yang dibangun menggunakan framework flask digunakan untuk mengelola data absensi, Aplikasi Mobile absensi dibangun menggunakan bahasa pemprograman java berguna untuk absensi siswa, dan Perangkat IoT untuk memvalidasi siswa."
+  descr: "Sistem absensi BLE (Bluetooth Low Energy) adalah sistem yang dibangun untuk kebutuhan absensi Siswa SMK melalui smartphone. Sistem ini dibangun dengan 3 platform, Website yang dibangun untuk mengelola data absensi, Aplikasi Mobile (APK) berguna untuk absensi siswa, dan Perangkat IoT untuk melakukan scanning terhadap smartphone siswa."
   tags:
-    - tag: Python3
     - tag: Flask
     - tag: Java
     - tag: C
-    - tag: MongoDB
-    - tag: ESP32
+    - tag: MySql
+    - tag: Microkontroller ESP32
 
 - name: Sistem Monitoring Lokasi Pasien (Indoor Position)
-  descr: "Sistem Monitoring lokasi pasien adalah sistem yang dibangun untuk kebutuhan monitoring lokasi pasien covid19 didalam ruangan. sistem yang dibangun dengan bahasa pemrograman php, jQuery, python serta untuk pengelolaan log data menggunakan ELK."
+  descr: "Sistem Monitoring lokasi pasien adalah sistem yang dibangun untuk kebutuhan melihat dan memantau lokasi pasien covid19 didalam gedung atau ruangan."
   tags:
     - tag: PHP
     - tag: jQuery
@@ -33,9 +32,36 @@
     - tag: ELK(elasticsearch-log-kibana)
 
 - name: Healthy Life - Giudeliens and Scheduling
-  descr: "Aplikasi ini memberikan informasi seputar manfaat buah-buahan dan sayuran yang kita konsumsi setiap hari. merekomendasikan makanan buah dan sayur dan melakukan penjadwalan kegiatan(aktivitas). (Dibuat untuk memenuhi tugas kuliah)"
+  descr: "Aplikasi ini memberikan informasi seputar manfaat buah-buahan dan sayuran yang kita konsumsi setiap hari. merekomendasikan makanan buah/sayur dan melakukan penjadwalan kegiatan(aktivitas)."
   demo : https://play.google.com/store/apps/details?id=com.noplayer.healthylife
   tags:
     - tag: Java
     - tag: Restfull API
+    - tag: SQLite
     - tag: XML
+
+- name: Restfull-API Tempanime
+  descr: "Project Mandiri tentang Restfull-API, Restful API ini menggunakan format data JSON untuk pertukaran dan penyimpanan data. Dengan menggunakan aplikasi ini, sistem dapat saling berkomunikasi dan berbagi data, sehingga memudahkan dalam pengembangan aplikasi yang lebih kompleks."
+  demo : https://api-ahmadfaritzip.cloud.okteto.net/docs
+  tags:
+    - tag: FastAPI
+    - tag: MongoDB
+    - tag: Docker Compose
+    - tag: Okteto Cloud
+    - tag: OAuth2
+    - tag: Asynchronous
+    - tag: SwaggerUI
+    - tag: JSON
+
+
+- name: Tempanime
+  descr: "Aplikasi yang dibangun menggunakan teknologi VueJS(NuxtJS) dan sudah PWA yang artinya dapat diinstall seperti aplikasi native."
+  demo : https://tempanime.my.id
+  tags:
+    - tag: VueJS
+    - tag: NuxtJS
+    - tag: Vercel
+    - tag: Progressive Web App (PWA)
+    - tag: SPA, SSR, SSG
+    - tag: TailwindCSS
+    - tag: Full-Responsive
