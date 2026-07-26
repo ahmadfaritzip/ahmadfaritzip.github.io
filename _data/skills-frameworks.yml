@@ -15,7 +15,7 @@
   weight: 3
 
 - name: Django
-  weight: 2
+  weight: 4
 
 - name: Flask
   weight: 5
@@ -28,3 +28,6 @@
 
 - name: Tailwind
   weight: 5
+
+- name: Svelte
+  weight: 4

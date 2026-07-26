@@ -6,16 +6,16 @@
 #   weight: 5
 
 - name: Git
-  weight: 3
+  weight: 5
 
 - name: Scrum
   weight: 3
 
 - name: VSCode
-  weight: 3
+  weight: 5
 
 - name: Postman
-  weight: 3
+  weight: 4
 
 - name: Docker
   weight: 3

@@ -33,7 +33,6 @@
 
 - name: Healthy Life - Giudeliens and Scheduling
   descr: "Aplikasi ini memberikan informasi seputar manfaat buah-buahan dan sayuran yang kita konsumsi setiap hari. merekomendasikan makanan buah/sayur dan melakukan penjadwalan kegiatan(aktivitas)."
-  demo : https://play.google.com/store/apps/details?id=com.noplayer.healthylife
   tags:
     - tag: Java
     - tag: Restfull API
@@ -42,7 +41,6 @@
 
 - name: Restfull-API Tempanime
   descr: "Project Mandiri tentang Restfull-API, Restful API ini menggunakan format data JSON untuk pertukaran dan penyimpanan data. Dengan menggunakan aplikasi ini, sistem dapat saling berkomunikasi dan berbagi data, sehingga memudahkan dalam pengembangan aplikasi yang lebih kompleks."
-  demo : https://api-ahmadfaritzip.cloud.okteto.net/docs
   tags:
     - tag: FastAPI
     - tag: MongoDB
@@ -56,7 +54,6 @@
 
 - name: Tempanime
   descr: "Aplikasi yang dibangun menggunakan teknologi VueJS(NuxtJS) dan sudah PWA yang artinya dapat diinstall seperti aplikasi native."
-  demo : https://tempanime.my.id
   tags:
     - tag: VueJS
     - tag: NuxtJS

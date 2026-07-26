@@ -17,6 +17,18 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: IndoWebhost Kreasi
+  title-url: https://iweka.id
+  date: Aug 2023 - Present
+  subtitle: Fullstack Developer
+  tags:
+    - tag: Flutter
+    - tag: Golang
+    - tag: Svelte
+    - tag: PHP
+    - tag: Redis
+  timeline-side: left
+
 - title: LIPI (magang)
   title-url: http://lipi.go.id
   date: Aug 2021 - Oct 2021

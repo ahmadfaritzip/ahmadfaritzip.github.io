@@ -11,8 +11,14 @@
 - name: PHP
   weight: 4
 
-- name: JavaScript
+- name: NodeJS
   weight: 4
 
 - name: Java
   weight: 2
+
+- name: Flutter
+  weight: 5
+
+- name: Golang
+  weight: 4
